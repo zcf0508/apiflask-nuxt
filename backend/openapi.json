@@ -1,0 +1,40 @@
+{
+  "components": {
+    "schemas": {
+      "Generated": {
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "title": "APIFlask",
+    "version": "0.1.0"
+  },
+  "openapi": "3.0.3",
+  "paths": {
+    "/": {
+      "get": {
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Generated"
+                }
+              }
+            },
+            "description": "Successful response"
+          }
+        },
+        "summary": "Index"
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "bradlc.vscode-tailwindcss",
+    "antfu.unocss",
+    "yoavbls.pretty-ts-errors",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "donjayamanne.python-environment-manager",
+    "ms-python.black-formatter",
+    "charliermarsh.ruff"
+  ]
+}

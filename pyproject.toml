@@ -1,0 +1,24 @@
+[tool.mypy]
+files = [ "backend" ]
+python_version = "3.10"
+
+# https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+indent-width = 2
+# https://beta.ruff.rs/docs/rules/
+ignore = [
+  "F401",
+  "E402"
+]
+select = [
+  "E",
+  "W",
+  "F"
+]
+# Exclude a variety of commonly ignored directories.
+ignore-init-module-imports = true
+respect-gitignore = true
